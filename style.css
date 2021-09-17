@@ -1,0 +1,116 @@
+:root {
+        --red: #E50914;
+        --black: #141414;
+}
+
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+/* Elementos Base */
+
+    body {
+            background: var(--black);
+            font-family: 'Times New Roman', Times, serif;
+            color: white;
+    }
+    header .container{
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content:space-between;
+    
+    }
+    
+
+    header .logo {
+        color: var(--red);
+        font-family:'Bebas Neue', cursive;
+        font-size: 60px;
+        margin-left: 5px;
+    }
+
+    header nav a{
+        text-decoration: none;
+        color: #e5e5e5;
+        margin-right: 30px;
+        margin-left: 16px;
+        
+    }
+    header nav a:hover{
+        color: #b3b3b3;
+    }
+
+
+    /* Título em Destaque */
+
+    .principal {
+        font-size: 16px;
+        background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(./img/capa-anime.jpg);
+
+        height: 550px;
+        background-size: cover;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .principal .sinopse{
+        margin-bottom: 25px;
+        margin-top: 10px;
+        margin: 4.58834px, 0px, 0px;
+    }
+
+    .principal .titulo {
+        font-size: 70px;
+        font-family:'Bebas Neue', cursive;
+    }
+
+    .botao {
+        background-color: rgba(0, 0, 0, .50);
+        border: none;
+        color: white;
+
+        padding: 10px 15px 10px;
+        margin-right: 15px;
+        font-size: 16px;
+
+        cursor: pointer;
+        transition: 1s ease all;
+    }
+
+    .botao:hover {
+        background-color: white;
+        color: black;
+    }
+
+    .botao i{
+        margin-right: 8px;
+        margin-left: 3px;
+    }
+
+    .container {
+        margin-left: 10px;
+        width: 500px;
+    }
+    .sinopse{
+        font-family: 'Roboto' , sans-serif; 
+    }
+
+    .box-filme{
+        height: 100%;
+        width: 100%;
+        display: block;
+    }
+ 
+    .animes{
+        text-decoration: none;
+        color:#FFFFFF;
+        margin-right: 10px
+
+    }
